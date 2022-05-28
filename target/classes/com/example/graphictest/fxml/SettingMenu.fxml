@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0"
+      prefWidth="1199.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.graphictest.views.SettingMenu">
+    <children>
+        <Button fx:id="medium" layoutX="569.0" layoutY="101.0" mnemonicParsing="false" onMouseClicked="#medium"
+                text="Medium"/>
+        <Button fx:id="easy" layoutX="456.0" layoutY="101.0" mnemonicParsing="false" onMouseClicked="#easy"
+                text="Easy"/>
+        <Button fx:id="hard" layoutX="702.0" layoutY="101.0" mnemonicParsing="false" onMouseClicked="#hard"
+                text="Hard"/>
+        <Label layoutX="559.0" layoutY="61.0" text="Game Difficulty"/>
+        <Button layoutX="536.0" layoutY="237.0" mnemonicParsing="false" onMouseClicked="#mute"
+                text="enable/disable music"/>
+        <Button fx:id="devil" layoutX="562.0" layoutY="167.0" mnemonicParsing="false" onMouseClicked="#devil"
+                text="DevilMode"/>
+        <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#back" text="back"/>
+    </children>
+</Pane>

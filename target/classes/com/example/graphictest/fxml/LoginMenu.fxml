@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.graphictest.views.LoginMenu"
+            prefHeight="750.0" prefWidth="1200.0">
+
+    <center>
+
+        <VBox spacing="10" alignment="CENTER" maxWidth="350">
+            <Label text="Username"/>
+            <TextField fx:id="username" promptText="enter your username"/>
+            <Label text="Password"/>
+            <TextField fx:id="password" promptText="enter your password"/>
+            <Button fx:id="loginButton" text="Login" onMouseClicked="#login"/>
+            <Button text="Continue as guest" onMouseClicked="#continueAsGuest"/>
+            <Label text="Don't have an account?"/>
+            <Button text="Register now" onMouseClicked="#register"/>
+            <Label fx:id="error" text=""/>
+        </VBox>
+
+    </center>
+
+
+</BorderPane>
